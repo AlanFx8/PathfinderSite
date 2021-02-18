@@ -1,0 +1,16 @@
+#pathfinder-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 16px; /*Remove?*/
+    background-color: #444444;
+}
+
+#grid {
+    background-color: #ffffff;
+}
+
+.row-divider {
+    font-size: 0;
+}

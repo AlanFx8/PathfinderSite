@@ -1,0 +1,78 @@
+/*The Header object itself*/
+#pathfinder-header {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/*Row-divider*/
+.header-row-divider {
+    font-size: 0;
+    border-bottom: solid 1px #ffffff;
+}
+
+/*Header-option-element*/
+.header-option-element {
+    display: inline-block;
+    border-right: solid 1px #ffffff;
+    padding: 1rem;
+}
+
+/*Header-buttons base*/
+.header-btn {
+    padding: .5rem;
+    width: 16rem;
+    font-weight: bold;
+}
+
+.header-btn:hover {
+    font-style: italic;
+}
+
+/*Label and Select*/
+.label {
+    display: inline-block;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4rem;
+    margin: .5rem;
+}
+
+select {
+    width: 14rem;
+    text-align: center;
+    height: 2.4rem;
+}
+
+/*Style each button*/
+.toggle-nodes-btn {
+    background-color: #5f1c9e;
+}
+
+.toggle-nodes-btn:hover {
+    background-color: #9c4de6;
+}
+
+.walls-nodes-btn {
+    background-color: #00cc00;
+}
+
+.walls-nodes-btn:hover {
+    background-color: #63d663;
+}
+
+.clear-nodes-btn {
+    background-color: #bb1f1f;
+}
+
+.clear-nodes-btn:hover {
+    background-color: #fc6262;
+}
+
+.animate-nodes-btn {
+    background-color: #adad00;
+    margin-left: .5rem; /*A hack to get space between the select element*/
+}
+
+.animate-nodes-btn:hover {
+    background-color: #e2e239;
+}
